@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+img {
+  vertical-align: middle;
+}
+input {
+  border: none;
+  outline: none;
+}
+body {
+  padding: 0.45rem 0;
+}
+/*头部公共样式*/
+#header {
+  display: flex;
+  align-items: center;
+  background-color: #006699;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+#header .left {
+  width: 0.45rem;
+  height: 0.45rem;
+}
+#header h4 {
+  flex: 1;
+  margin: 0;
+  font-size: 0.18rem;
+  line-height: 0.45rem;
+  font-weight: normal;
+  color: #fff;
+}
+#header .right {
+  width: 0.45rem;
+  height: 0.45rem;
+  font-size: 0.25rem;
+  line-height: 0.45rem;
+}
+/*底部公共样式*/
+#footer {
+  text-align: center;
+  background-color: #006699;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+}
+#footer .mui-col-xs-3 {
+  padding: 0.06rem 0;
+}
+#footer .mui-col-xs-3 i {
+  display: block;
+  font-size: 0.18rem;
+  color: #fff;
+}
+#footer .mui-col-xs-3 a {
+  color: #fff;
+  font-size: 0.14rem;
+}

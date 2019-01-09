@@ -90,7 +90,6 @@ body {
   font-size: 0.14rem;
 }
 #main {
-  position: relative;
   background-color: #fff;
   height: 100%;
 }
@@ -114,4 +113,20 @@ body {
   background-color: #006699;
   color: #fff;
   border: 0.01rem solid #006699;
+}
+#main .mui-table-view .content {
+  display: flex;
+}
+#main .mui-table-view .content .left {
+  width: 0.42rem;
+}
+#main .mui-table-view .content .left img {
+  width: 100%;
+}
+#main .mui-table-view .content .right {
+  flex: 1;
+  padding-left: 0.1rem;
+}
+#main .mui-table-view .btn-out button {
+  width: 100%;
 }

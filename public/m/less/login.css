@@ -4,7 +4,6 @@
 }
 a {
   text-decoration: none;
-  font-size: 0.14rem;
 }
 li {
   list-style: none;
@@ -15,7 +14,6 @@ img {
 input {
   border: none;
   outline: none;
-  font-size: 0.14rem;
 }
 body {
   padding: 0.45rem 0;
@@ -90,7 +88,6 @@ body {
   font-size: 0.14rem;
 }
 #main {
-  position: relative;
   background-color: #fff;
   height: 100%;
 }
@@ -114,4 +111,7 @@ body {
   background-color: #006699;
   color: #fff;
   border: 0.01rem solid #006699;
+}
+body {
+  background-color: #fff;
 }

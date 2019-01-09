@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>乐淘搜索页面</title>
+    <style>
+     
+    </style>
+    <link rel="icon" href="./images/favicon.ico">
+    <!-- 1.引入MUi的css -->
+    <link rel="stylesheet" href="./lib/mui/css/mui.min.css">
+    <!-- 2.引入fontAwesome字体图标 -->
+    <link rel="stylesheet" href="lib/fontAwesome/css/font-awesome.css">
+
+
+    <!-- 3.引入less 的自己的less -->
+    <link rel="stylesheet/less" href="./less/register.less">
+    <!-- 4.引入less.js -->
+    <script src="lib/less/less.js"></script>
+    <!-- 引入rem.js -->
+    <script src="./js/rem.js"></script>
+
+
+</head>
+
+<body>
+    <!-- 头部区域 -->
+    <header id="header">
+        <a href="login.html" class="left fa fa-arrow-left"></a>
+        <h4>会员注册</h4>
+        <a href="index.html" class="right fa fa-home" aria-hidden="true"></a>
+    </header>
+    <!-- 主题 -->
+  
+    <main id="main">
+            <div class="mui-scroll-wrapper">
+                    <div class="mui-scroll">
+            <section class="login">
+                <form class="mui-input-group">
+                    <div class="mui-input-row">
+                        <label>手机号</label>
+                    <input type="text" class="mui-input-clear mobile" placeholder="请输入手机号" value="13133333333" >
+                    </div>
+                    <div class="mui-input-row">
+                            <label>用户名</label>
+                        <input type="text" class="mui-input-clear username user" placeholder="请输入用户名"  value="wo">
+                        </div>
+                    <div class="mui-input-row">
+                        <label>密码</label>
+                        <input type="password" class="mui-input-password passwd1" placeholder="请输入密码" value="111">
+                    </div>
+                  
+                    <div class="mui-input-row">
+                        <label>确认密码</label>
+                        <input type="password" class="mui-input-password passwd2" placeholder="请输确认入密码" value="111">
+                    </div>
+                    <div class="mui-input-row">
+                        <label>验证码</label>
+                        <input type="text" class="mui-input-group vcode" placeholder="请输入验证码"><button type="button" class="mui-btn mui-btn-primary btn-vcode">获取验证码</button>
+                    </div>
+                    <div class="mui-button-row">              
+                        <button type="button" class="mui-btn mui-btn-primary btn-register" >注册</button>
+                    </div>
+                </form>
+            </section>
+    
+        </div>    
+        </div>
+        </main>
+
+    <!-- 底部区域 -->
+    <footer id="footer">
+        <div class="mui-row">
+            <div class="mui-col-xs-3 ">
+                <a href="index.html"><i class="fa fa-home"></i>
+                    首页
+                </a>
+            </div>
+            <div class="mui-col-xs-3 active">
+                <a href="category.html"><i class="fa fa-bars"></i>
+                    分类
+                </a>
+            </div>
+            <div class="mui-col-xs-3">
+                <a href="cart.html"><i class="fa fa-shopping-cart"></i>
+                    购物车
+                </a>
+            </div>
+            <div class="mui-col-xs-3">
+                <a href="user.html"><i class="fa fa-user"></i>
+                    个人中心
+                </a>
+            </div>
+        </div>
+    </footer>
+  
+
+    <!-- 1.引入mui .js -->
+    <script src="./lib/mui/js/mui.js"></script>
+    <!-- 2.引入zeto获取元素 -->
+    <script src="./lib/zepto/zepto.min.js"></script>
+    <!-- 3.引入模板引擎的js -->
+    <script src="./lib/artTemplate/template-web.js"></script>
+    <!-- 引入自己的js -->
+    <script src="./js/register.js"></script>
+
+</body>
+
+
+</html>

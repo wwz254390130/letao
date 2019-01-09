@@ -1,30 +1,39 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-a{
+a {
     text-decoration: none;
-
+    font-size: 0.14rem;
 }
-li{
+
+li {
     list-style: none;
 }
-img{
+
+img {
     vertical-align: middle;
 }
-input{
+
+input {
     border: none;
     outline: none;
+    font-size: 0.14rem;
 }
-body{
+// html{
+//     height: 100%;
+// }
+body {
     padding: 0.45rem 0;
+    height: 100vh;
+   
 }
 
 @main-color: #006699;
 /*头部公共样式*/
-#header {
 
+#header {
     display: flex;
     align-items: center;
     background-color: @main-color;
@@ -37,6 +46,8 @@ body{
     .left {
         width: 0.45rem;
         height: 0.45rem;
+        line-height: 0.45rem;
+        color: #fff;
     }
     h4 {
         flex: 1;
@@ -49,13 +60,26 @@ body{
     .right {
         width: 0.45rem;
         height: 0.45rem;
-     font-size: 0.25rem;
-     line-height: 0.45rem;
+        font-size: 0.20rem;
+        line-height: 0.45rem;
+        color: #fff;
+    }
+    
+    .form {
+        flex: 1;
+        text-align: left;
+        font-size: 0.14rem;
+        input {
+            background-color: #fff;
+            margin-bottom: 0;
+           
+        }
     }
 }
+
 /*底部公共样式*/
 
-#footer{
+#footer {
     text-align: center;
     background-color: @main-color;
     position: fixed;
@@ -63,20 +87,52 @@ body{
     bottom: 0;
     left: 0;
     z-index: 999;
-    .mui-col-xs-3{
+    div.active{
+        a,i{
+            color: #ffa500;
+        }
+      
+    }
+    .mui-col-xs-3 {
         padding: 0.06rem 0;
-
-        i{
+        i {
             display: block;
             font-size: 0.18rem;
             color: #fff;
-     
         }
-        a{
+        a {
             color: #fff;
             font-size: 0.14rem;
-    
         }
+    }
+}
 
+#main{
+    position: relative;
+    background-color: #fff;
+    height: 100%;
+    .search {
+        form {
+            display: flex;
+            padding: 0.05rem;
+            input {
+                flex: 1;
+                margin-bottom: 0;
+                background-color: #fff;
+                border-radius: 0.06rem 0 0 0.06rem;
+                border: 0.01rem solid @main-color;
+                text-align: left;
+                font-size: 0.14rem;
+            }
+               
+            button {
+                width: 0.6rem;
+                color: @main-color;
+                border-radius: 0 0.06rem 0.06rem 0;
+                background-color: @main-color;
+                color: #fff;
+                border: 0.01rem solid @main-color;
+            }
+        }
     }
 }

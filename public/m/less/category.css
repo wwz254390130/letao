@@ -4,7 +4,6 @@
 }
 a {
   text-decoration: none;
-  font-size: 0.14rem;
 }
 li {
   list-style: none;
@@ -15,7 +14,6 @@ img {
 input {
   border: none;
   outline: none;
-  font-size: 0.14rem;
 }
 body {
   padding: 0.45rem 0;
@@ -90,28 +88,50 @@ body {
   font-size: 0.14rem;
 }
 #main {
-  position: relative;
-  background-color: #fff;
+  display: flex;
+  background-color: #ccc;
+  z-index: 999;
   height: 100%;
 }
-#main .search form {
-  display: flex;
-  padding: 0.05rem;
+#main .category-left {
+  width: 0.8rem;
+  position: relative;
+  height: 100%;
 }
-#main .search form input {
-  flex: 1;
-  margin-bottom: 0;
+#main .category-left .mui-scroll {
+  min-height: 100.8%;
+}
+#main .category-left ul li a {
+  display: block;
+  text-align: center;
+  height: 0.45rem;
+  line-height: 0.45rem;
   background-color: #fff;
-  border-radius: 0.06rem 0 0 0.06rem;
-  border: 0.01rem solid #006699;
-  text-align: left;
-  font-size: 0.14rem;
+  color: #666;
+  border: 1px solid #ccc;
 }
-#main .search form button {
-  width: 0.6rem;
-  color: #006699;
-  border-radius: 0 0.06rem 0.06rem 0;
-  background-color: #006699;
-  color: #fff;
-  border: 0.01rem solid #006699;
+#main .category-left ul li.active {
+  color: #666;
+}
+#main .category-left ul li.active a {
+  background-color: #ccc;
+}
+#main .category-right {
+  flex: 1;
+  position: relative;
+  height: 100%;
+}
+#main .category-right .mui-scroll {
+  min-height: 100.8%;
+}
+#main .category-right .mui-row {
+  padding: 0.1rem;
+}
+#main .category-right .mui-row a {
+  text-align: center;
+  display: block;
+  background-color: #fff;
+}
+#main .category-right .mui-row a img {
+  width: 100%;
 }

@@ -4,7 +4,6 @@
 }
 a {
   text-decoration: none;
-  font-size: 0.14rem;
 }
 li {
   list-style: none;
@@ -15,7 +14,6 @@ img {
 input {
   border: none;
   outline: none;
-  font-size: 0.14rem;
 }
 body {
   padding: 0.45rem 0;
@@ -90,7 +88,6 @@ body {
   font-size: 0.14rem;
 }
 #main {
-  position: relative;
   background-color: #fff;
   height: 100%;
 }
@@ -107,11 +104,19 @@ body {
   text-align: left;
   font-size: 0.14rem;
 }
-#main .search form button {
-  width: 0.6rem;
-  color: #006699;
-  border-radius: 0 0.06rem 0.06rem 0;
-  background-color: #006699;
-  color: #fff;
-  border: 0.01rem solid #006699;
+#main .search-content .search-title span {
+  font-size: 0.14rem;
+}
+#main .search-content .search-title a {
+  color: #666;
+}
+#main .search-content .search-list {
+  padding: 0 0.1rem;
+}
+#main .search-content .search-list li {
+  border: .01rem solid #ccc;
+}
+#main .search-content .search-list li span {
+  padding: 0.05rem;
+  text-align: center;
 }

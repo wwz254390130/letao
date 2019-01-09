@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello MUI</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+    <link rel="stylesheet" href="./public/m/lib/mui/css/mui.min.css">
+    <style>
+        html,
+			body {
+				background-color: #efeff4;
+			}
+
+            img{
+                width: 100px;
+            }
+            #offCanvasWrapper{
+                height: 200px;
+            }
+            .mui-scroll button{
+                display: flex;
+            }
+           #offCanvasWrapper button{
+                flex: 1;
+            }
+		</style>
+</head>
+
+<body>
+
+    <div id="offCanvasWrapper" class="mui-off-canvas-wrap mui-draggable">
+        <!--菜单部分-->
+        <aside id="offCanvasSide" class="mui-off-canvas-right">
+            <div id="offCanvasSideScroll" class="mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <button type="button" class="mui-btn mui-btn-primary mui-btn-outlined">蓝色</button>
+                    <button type="button" class="mui-btn mui-btn-danger mui-btn-outlined">红色</button>
+
+                </div>
+            </div>
+        </aside>
+        <div class="mui-inner-wrap">
+
+            <div id="offCanvasContentScroll" class="mui-content mui-scroll-wrapper">
+                <div class="mui-scroll">
+                    <div class="mui-content-padded">
+
+
+                        <ul class="mui-table-view">
+                            <li class="mui-table-view-cell">
+                                <div class="left"><img src="./public/m/images/detail.jpg" alt=""><input type="checkbox"></div>
+                                <div class="right">
+                                    <p>李宁闪击篮球鞋驭帅10镭射队尚4男韦德之道空袭中高帮队尚3.5球鞋</p>
+                                    <p><a class="mui-navigate-right"><span>&yen;499.1</span>&nbsp;&nbsp;<del>&#165;888.1</del></a></p>
+                                    <p class="num">鞋码:<span>&nbsp;&nbsp;38</span> <span class="n-right">x1双</span></p>
+                                </div>
+                            </li>
+
+                        </ul>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+  
+
+
+    <script src="./public/m/lib/mui/js/mui.min.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>

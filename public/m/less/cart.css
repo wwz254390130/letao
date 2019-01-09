@@ -115,3 +115,65 @@ body {
   color: #fff;
   border: 0.01rem solid #006699;
 }
+#header a:nth-of-type(2) {
+  font-size: 0.14rem;
+}
+#main .mui-table-view li .mui-slider-handle .mui-pull-left {
+  text-align: center;
+}
+#main .mui-table-view li .mui-slider-handle .mui-pull-left img {
+  max-width: 0.6rem;
+  height: 0.6rem;
+}
+#main .mui-table-view li .mui-slider-handle .mui-pull-left div input {
+  position: static;
+}
+#main .mui-table-view li .mui-slider-handle .mui-media-body {
+  font-size: 0.14rem;
+  color: #000;
+  padding-left: 0.1rem;
+  line-height: 0.22rem;
+}
+#main .mui-table-view li .mui-slider-handle .mui-media-body .mui-navigate-right span {
+  color: red;
+}
+#main .mui-table-view li .mui-slider-handle .mui-media-body .mui-navigate-right del {
+  color: #999;
+}
+#main .mui-table-view li .mui-slider-handle .mui-media-body .count {
+  display: flex;
+  justify-content: space-between;
+}
+#footer .order {
+  background-color: #fff;
+  color: red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 0.01rem solid #ccc;
+}
+#footer .order div:nth-of-type(1) {
+  padding-left: 0.1rem;
+}
+#footer .order span {
+  padding: 0 0.1rem;
+}
+.list-size,
+.count {
+  padding: 0.1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-size .btn-size span,
+.count .btn-size span {
+  vertical-align: middle;
+}
+.list-size .btn-size button,
+.count .btn-size button {
+  margin-bottom: 0.05rem;
+  vertical-align: middle;
+}
+body {
+  padding-bottom: 0.8rem;
+}

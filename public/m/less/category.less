@@ -1,0 +1,63 @@
+@import 'base.less';
+
+#main {
+    display: flex;
+    background-color: #ccc;
+    z-index: 999;
+    height: 100%;
+    .category-left {
+        width: 0.8rem;
+        position: relative;
+        height: 100%;
+        .mui-scroll{
+            min-height: 100.8%;
+        }
+        ul {
+            li {
+                a {
+                    display: block;
+                    text-align: center;            
+                    height: 0.45rem;
+                    line-height: 0.45rem;
+                    background-color: #fff;
+                    color: #666;
+                    border: 1px solid #ccc;
+                }
+
+                &.active {
+                  
+                    color: #666;
+                    a {
+                       
+                        background-color: #ccc;
+                    }
+                }
+            }
+        }
+    }
+
+    .category-right {
+        flex: 1;
+        position: relative;
+        height: 100%;
+        
+        .mui-scroll{
+            min-height: 100.8%;
+        }
+        .mui-row{
+            padding: 0.1rem;
+            a{
+                text-align: center;
+                display: block;
+                background-color: #fff;
+    
+                img{
+                    width: 100%;
+                }
+             
+            }
+
+        }
+     
+    }
+}

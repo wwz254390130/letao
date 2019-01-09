@@ -4,7 +4,6 @@
 }
 a {
   text-decoration: none;
-  font-size: 0.14rem;
 }
 li {
   list-style: none;
@@ -15,7 +14,6 @@ img {
 input {
   border: none;
   outline: none;
-  font-size: 0.14rem;
 }
 body {
   padding: 0.45rem 0;
@@ -90,7 +88,6 @@ body {
   font-size: 0.14rem;
 }
 #main {
-  position: relative;
   background-color: #fff;
   height: 100%;
 }
@@ -114,4 +111,40 @@ body {
   background-color: #006699;
   color: #fff;
   border: 0.01rem solid #006699;
+}
+#main .slide img {
+  height: 3rem;
+}
+#main .list .mui-table-view-cell span {
+  vertical-align: middle;
+}
+#main .list .mui-table-view-cell button {
+  vertical-align: middle;
+  margin-bottom: 0.05rem;
+}
+#main .list .color {
+  color: red;
+}
+#footer {
+  background-color: #ccc;
+}
+#footer .mui-row div ~ div {
+  padding: 0.1rem;
+}
+#footer .mui-row .cart {
+  font-size: 0.25rem;
+  vertical-align: middle;
+  line-height: .55rem;
+}
+#footer .mui-row .btn-cart {
+  vertical-align: middle;
+  width: 100%;
+  color: #fff;
+  background-color: red;
+}
+#footer .mui-row .btn-buy {
+  width: 100%;
+  vertical-align: middle;
+  background-color: #f0ad4e;
+  color: #fff;
 }

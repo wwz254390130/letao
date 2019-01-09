@@ -4,7 +4,6 @@
 }
 a {
   text-decoration: none;
-  font-size: 0.14rem;
 }
 li {
   list-style: none;
@@ -15,10 +14,9 @@ img {
 input {
   border: none;
   outline: none;
-  font-size: 0.14rem;
 }
 body {
-  padding: 0.45rem 0;
+  padding: 0.5rem 0;
   height: 100vh;
 }
 /*头部公共样式*/
@@ -90,7 +88,6 @@ body {
   font-size: 0.14rem;
 }
 #main {
-  position: relative;
   background-color: #fff;
   height: 100%;
 }
@@ -114,4 +111,57 @@ body {
   background-color: #006699;
   color: #fff;
   border: 0.01rem solid #006699;
+}
+#main {
+  position: relative;
+  padding-top: 0.45rem;
+}
+#main form {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0.45rem;
+}
+#main .list {
+  position: relative;
+  height: 100%;
+}
+#main .mui-card {
+  margin: 0.1rem 0 0;
+  box-shadow: none;
+}
+#main .mui-card .mui-card-header {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  background-color: #ccc;
+}
+#main .mui-card .mui-card-header a {
+  color: #666;
+}
+#main .mui-card .mui-card-header a.active,
+#main .mui-card .mui-card-header a.active i {
+  color: red;
+}
+#main .mui-card .mui-row {
+  margin-top: 0.1rem;
+}
+#main .mui-card .mui-row .mui-col-xs-6 {
+  height: 100%;
+  padding: 0.03rem;
+}
+#main .mui-card .mui-row .mui-col-xs-6 a {
+  padding: 0.1rem;
+  display: block;
+  text-align: center;
+  border: .01rem solid #ccc;
+}
+#main .mui-card .mui-row .mui-col-xs-6 a .p-name {
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+#main .mui-card .mui-row .mui-col-xs-6 a img {
+  width: 100%;
 }
